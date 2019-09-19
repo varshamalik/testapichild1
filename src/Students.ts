@@ -10,13 +10,8 @@ class Students{
     getFullName():string{
         return this.fName.concat(this.lName).concat(" Hi there!!");
     }
-<<<<<<< HEAD
 
     getNewFullName1():string{
-=======
-    
-    getNewFullName2():string{
->>>>>>> d5a0cd09cd5e04a8d5d59da99d7370f3ee60d58f
         return this.fName.concat(this.lName).concat(" Hi there!!");
     }
 }
