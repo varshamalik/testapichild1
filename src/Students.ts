@@ -10,6 +10,10 @@ class Students{
     getFullName():string{
         return this.fName.concat(this.lName).concat(" Hi there!!");
     }
+    
+    getNewFullName():string{
+        return this.fName.concat(this.lName).concat(" Hi there!!");
+    }
 }
 
 export {Students}
